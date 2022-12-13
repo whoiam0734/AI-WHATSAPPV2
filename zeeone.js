@@ -6,8 +6,6 @@
 */
 require('./settings')
 
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
-
 const {
     default: alphaConnect,
     useSingleFileAuthState,
